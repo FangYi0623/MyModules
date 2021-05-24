@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ModuleDetailActivity">
+
+    <TextView
+        android:id="@+id/tvCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Module Code" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Module Name" />
+
+    <TextView
+        android:id="@+id/tvYr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Academic Year" />
+
+    <TextView
+        android:id="@+id/tvSem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester" />
+
+    <TextView
+        android:id="@+id/tvMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Module Credit" />
+
+    <TextView
+        android:id="@+id/tvVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Venue" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back" />
+</LinearLayout>
